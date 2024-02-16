@@ -1,0 +1,5 @@
+pk@Patsakorns-Laptop src % python -u TCPClient_FlowControl.py
+Please specify the socket receive buffer size (bytes): 1048576
+Enter number of bytes to read or enter 0 to end [     1048576]: 1048576
+#0 | Read from buffer: The Internet is literally a network of networks.The Internet lives where anyone can access it.The idea that you can somehow erase the Internet is silly.
+Enter number of bytes to read or enter 0 to end [     1048576]: 0

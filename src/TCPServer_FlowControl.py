@@ -8,7 +8,7 @@ quotes.append("The idea that you can somehow erase the Internet is silly.")
 
 serverPort = 12000
 serverSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-serverSocket.bind(('127.0.0.127', serverPort))
+serverSocket.bind(('127.0.0.1', serverPort))
 serverSocket.listen(8)
 print('The server is ready to receive')
 

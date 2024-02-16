@@ -1,0 +1,5 @@
+pk@Patsakorns-Laptop src % python -u TCPClient_FlowControl.py
+Please specify the socket receive buffer size (bytes): 32
+Enter number of bytes to read or enter 0 to end [          32]: 128
+#0 | Read from buffer: The Internet is literally a network of networks.The Internet lives where anyone can access it.The idea that you can somehow eras
+Enter number of bytes to read or enter 0 to end [         128]: 0

@@ -1,0 +1,11 @@
+pk@Patsakorns-Laptop src % python -u TCPClient_FlowControl.py
+Please specify the socket receive buffer size (bytes): 16777216
+Traceback (most recent call last):
+  File "/Users/pk/Desktop/Project/Com-Net/src/TCPClient_FlowControl.py", line 19, in <module>
+    clientSocket.setsockopt(socket.SOL_SOCKET, socket.SO_RCVBUF, recv_buf_size)
+OSError: [Errno 55] No buffer space available
+
+sysctl net.inet.tcp.recvspace
+sysctl net.inet.tcp.sendspace
+net.inet.tcp.recvspace: 131072
+net.inet.tcp.sendspace: 131072

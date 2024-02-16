@@ -1,7 +1,7 @@
 import socket
 
 
-serverName = '127.0.0.127'
+serverName = '127.0.0.1'
 serverPort = 12000
 send_buf_size = 16
 recv_buf_size = 16
